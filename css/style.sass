@@ -1,5 +1,5 @@
 /***Define colors***/
-$blue: #0681AB
+$blue: #1782AD
 $dark-green: #048E9B
 $green: #67C0BA
 $dark-grey: #666666
@@ -57,7 +57,7 @@ html
 	height: 100%
 
 h1,h2,h3,h4,h5,h6
-	margin: 0 0 10px
+	margin: 0 0 4px
 	text-transform: uppercase
 	font-family: Montserrat,sans-serif
 	font-weight: 700
@@ -81,20 +81,20 @@ p.lead
 .text-ju
 
 a
-	color: #28c3ab
+	color: $green
 	-webkit-transition: all .2s ease-in-out
 	-moz-transition: all .2s ease-in-out
 	transition: all .2s ease-in-out
 
 a:hover,a:focus
 	text-decoration: none
-	color: #176e61
+	color: $green
 
 .light
 	font-weight: 400
 
 .dropdown-menu
-	background-color: #3A94AC
+	background-color: #f6f6f6
 
 .navbar
 	margin-bottom: 0
@@ -124,14 +124,15 @@ a:hover,a:focus
 .navbar-custom ul.nav li a
 	font-size: 16px
 	letter-spacing: 1px
-	color: #fff
+	color: $blue
 	text-transform: uppercase
+	font-weight: 700
 
 .navbar-custom.top-nav-collapse ul.nav li a
 	-webkit-transition: all .2s ease-in-out
 	-moz-transition: all .2s ease-in-out
 	transition: all .2s ease-in-out
-	color: #fff
+	color: $blue
 
 .navbar-custom ul.nav ul.dropdown-menu
 	border-radius: 0
@@ -162,9 +163,10 @@ a:hover,a:focus
 	background-color: rgba(255,255,255,.2)
 
 .navbar-toggle
-	padding: 4px 6px
-	font-size: 14px
-	color: #fff
+	padding: 4px 15px
+	font-size: 21px
+	color: $blue
+	border: 1px solid
 
 .navbar-toggle:focus,.navbar-toggle:active
 	outline: 0
@@ -285,7 +287,7 @@ hr
 
 /*****General sections*****/
 .home-section
-	padding: 65px 10px 0px 10px
+	padding: 50px 10px 0px 10px
 	padding-bottom: 40px
 	display: block
 	position: relative
@@ -321,6 +323,9 @@ hr
 .text-green
 	color: $green
 
+.text-blue
+	color: $blue
+
 /*****Intro*****/
 .intro
 	width: 100%
@@ -332,9 +337,9 @@ hr
 
 .intro .slogan
 	text-align: center
+	padding-bottom: 50px
 
 .intro .page-scroll
-	margin-top: 40px
 	text-align: center
 
 .brand-heading
@@ -361,6 +366,11 @@ hr
 .intro .slogan h4
 	color: #fff
 	text-shadow: -1px 1px 1px #000
+
+/*****login*****/
+#login
+	background-color: #f6f6f6
+	padding: 20px 0
 
 /*****About*****/
 .boxed-grey 
@@ -552,6 +562,8 @@ footer p
 	-webkit-transition: all .3s ease-in-out
 	-moz-transition: all .3s ease-in-out
 	transition: all .3s ease-in-out
+	background-color: $blue
+	color: #fff
 
 .btn-big
 	font-size: 40px
@@ -675,13 +687,12 @@ footer p
 
 	.top-nav-collapse
 		padding: 0
-		background-color: #67c0ba
+		background-color: #e6e6e6
 
 	.navbar-custom.top-nav-collapse
 		border-bottom: 1px solid rgba(255,255,255,.3)
 	
 	.intro
-		height: 100%
 		padding: 0
 
 	.brand-heading

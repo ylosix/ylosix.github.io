@@ -3677,7 +3677,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 1000px) {
   .navbar-collapse {
-    width: 787px;
+    width: auto;
     border-top: 0;
     box-shadow: none;
   }

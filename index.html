@@ -19,13 +19,24 @@
     <link href="css/style.css" rel="stylesheet">
 
 	<script src="js/Chart.js"></script>
+	<!-- Smartsupp Live Chat script -->
+	<script type="text/javascript">
+		var _smartsupp = _smartsupp || {};
+		_smartsupp.key = 'cea87bf45e3ee2f3e70cf2e6475689a011414e7f';
+		window.smartsupp||(function(d) {
+			var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+			s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+			c.type='text/javascript';c.charset='utf-8';c.async=true;
+			c.src='//www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+		})(document);
+	</script>
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
-	<!-- Preloader -->
+	<!-- Preloader
 	<div id="preloader">
 	  <div id="load"></div>
-	</div>
+	</div>-->
 
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -37,25 +48,26 @@
                     <img src="img/logo.png"/>
                 </a>
             </div>
-			 <a href="#"><div class="pull-right lang">ENG</div></a>
-			 <a href="#"><div class="pull-right lang">ESP</div></a>
+			 <!--<a href="#"><div class="pull-right lang">ENG</div></a>
+			 <a href="#"><div class="pull-right lang">ESP</div></a>-->
 			  <a href="https://github.com/ylosix/ylosix"><div class="pull-right community">COMMUNITY&nbsp;<i class="fa fa-github icon-med"></i> </div></a>
             <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse navbar-top col-md-12">
 				<ul class="nav navbar-nav">
 					<li><a href="#intro"></a></li>
-				  <li><a href="#whatis">WHAT IS YLOSIX?</a></li>
-				  <li><a href="#platform">PLATFORM</a></li>			
-				  <li><a href="#started">GETTING STARTED</a></li>
+				  <li><a href="#whatis">QUE ES YLOSIX?</a></li>
+				  <li><a href="#platform">PLATAFORMA</a></li>
+				  <li><a href="#started">PRIMEROS PASOS</a></li>
 				  <li class="dropdown">
-					 <a href="#" class="dropdown-toggle" data-toggle="dropdown">INSTALL & DOCS <b class="caret"></b></a>
+					 <a href="#" class="dropdown-toggle" data-toggle="dropdown">GUÍAS <b class="caret"></b></a>
 					 <ul class="dropdown-menu">
-						<li><a href="item.html#item">Installation</a></li>
-						<li><a href="item.html#item">Community</a></li>
-						<li><a href="item.html#item">Docs</a></li>
+						<li><a href="guia-backoffice.html">Guía de backoffice</a></li>
+						 <li><a href="guia-plantillas.html">Sube tus plantillas</a></li>
+						 <li><a href="https://github.com/ylosix/ylosix">Recursos</a></li>
+						<li><a href="documentacion.html">Documentos</a></li>
 					 </ul>
 				  </li>
-					<li><a href="#contact">Contact</a></li>	
+					<li><a href="#contact">Contacto</a></li>
 				</ul>
          </div>
             <!-- /.navbar-collapse -->
@@ -96,19 +108,14 @@
 		</div>
 		<div class="container">
 			<div class="row">
-			<h5>Inicia sesión para administrar tu CMS o regístrate <a href="#">aquí</a></h5>
+			<h5>Inicia sesión o regístrate para administrar tu CMS</h5>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row">
 		<form class="navbar-form" role="search">
-			<div class="form-group">
-				<input type="text" class="form-control" name="username" placeholder="Usuario">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" name="password" placeholder="Password">
-			</div>
-			<button type="submit" class="btn btn-default">Entra!</button>
+			<button type="submit" class="btn btn-default">INICIAR SESIÓN</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="submit" class="btn btn-default">REGÍSTRATE</button>
 		</form>
 				</div></div>
 	</section>
@@ -120,9 +127,9 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="wow">
 					<div class="section-heading">
-					<h2>PLATFORM</h2>
+					<h2>PLATAFORMA</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
@@ -134,50 +141,48 @@
 		<div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.2s">
+				<div class="wow" >
                 <div class="team">
                     <div class="inner">
 							  <div class="avatar"><img src="img/team/1.jpg" alt="" class="img-thumbnail" /></div>
 							  <h3>Open Source</h3>
-                        <!--<p class="subtitle">Modify our code</p>-->
                     </div>
-					<h4>free code</h4>
+					<h4>Código libre<br>Documentación<br>Guías y manuales</h4>
                 </div>
 				</div>
             </div>
 			<div class="col-xs-12 col-sm-6 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.5s">
+				<div class="wow">
                 <div class="team">
                     <div class="inner">
                         <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-thumbnail" /></div>
 							  <h3>Responsive</h3>
-                        <!--<p class="subtitle">CSS3 |  HTML5</p>-->
                     </div>
-					<h4>Bootstrap<br>Custom CSS<br>Custom HTML</h4>
+					<h4>Bootstrap<br>CSS Personalizable<br>HTML Personalizable</h4>
                 </div>
 				</div>
             </div>
 			<div class="col-xs-12 col-sm-6 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="0.8s">
+				<div class="wow">
                 <div class="team">
                     <div class="inner">
                         <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-thumbnail" /></div>
 							  <h3>WEB FRAMEWORKS</h3>
                         <!--<p class="subtitle">Web Framework</p>-->
                     </div>
-					<h4>Ruby on rails<br>JQuery</h4>
+					<h4>Ruby on rails<br>JQuery<br>SASS</h4>
                 </div>
 				</div>
             </div>
 			<div class="col-xs-12 col-sm-6 col-md-3">
-				<div class="wow bounceInUp" data-wow-delay="1s">
+				<div class="wow">
                 <div class="team">
                     <div class="inner">
                         <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-thumbnail" /></div>
 							  <h3>CMS</h3>
                         <!--<p class="subtitle">Easy Purchase</p>-->
                     </div>
-					<h4>Backoffice<br>Items</h4>
+					<h4>Backoffice<br>Gestor de contenidos<br>Añade contenido tu mismo</h4>
                 </div>
 				</div>
             </div>
@@ -193,9 +198,9 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="wow">
 					<div class="section-heading text-green">
-					<h2>What is ylosix?</h2>
+					<h2>Que es Ylosix?</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
@@ -209,14 +214,24 @@
 				<img src="img/demo1.png" class="img-thumbnail" alt="" />
 			</div>		 
 			<div class="col-xs-12 col-sm-9 col-md-9 wow fadeInUp text-light text-justify">
-				<h3>Open Source Ecommerce</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sem, lacinia eget consequat a, fringilla vel mauris. Duis eu sodales velit. In a quam hendrerit, placerat sapien a, molestie sem. Curabitur sit amet tempus nulla, at fermentum nunc. Mauris ac erat ligula. Fusce hendrerit erat justo, eu congue metus lacinia at. Curabitur at purus libero. Morbi placerat ex blandit egestas mattis. Fusce rutrum placerat tempor. Aenean mattis justo hendrerit, iaculis nulla a, condimentum libero. Suspendisse pretium vitae nunc a vehicula.<br><br>Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id.Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id.</p>
+				<h3>Open Source CMS</h3>
+				<p>Ylosix es un gestor de contenidos (CMS), de código libre.<br>
+					Permite personalizar totalmente las funcionalidades y el aspecto según tus necesidades.<br>
+					Está optimizado para dispositivos móviles y dispone de un backoffice sencillo e intuitivo que te facilitará la tarea de crear categorías y artículos para confeccionar tu web.<br>
+					Regístrate y genera tu CMS a partir de un subdominio, en pocos minutos ya tendrás una web operativa.<br>
+					Mediante plantillas podrás cambiar el aspecto de tu web. A través de nuestras plantillas predefinidas o creando uuna de cero (necesitas nociones básicas de CSS y HTML).
+					También puedes solicitar un diseño a medida <a href="mailto:info@ylosix.com">aquí</a>.
+				</p>
 			</div>
       </div>	
 	   <div class="row">		 
 			<div class="col-xs-12 col-sm-9 col-md-9 wow fadeInUp text-light text-justify">
-				<h3>Responsive & Optimized code</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sem, lacinia eget consequat a, fringilla vel mauris. Duis eu sodales velit. In a quam hendrerit, placerat sapien a, molestie sem. Curabitur sit amet tempus nulla, at fermentum nunc. Mauris ac erat ligula. Fusce hendrerit erat justo, eu congue metus lacinia at. Curabitur at purus libero. Morbi placerat ex blandit egestas mattis. Fusce rutrum placerat tempor. Aenean mattis justo hendrerit, iaculis nulla a, condimentum libero. Suspendisse pretium vitae nunc a vehicula.<br><br>Etiam varius lorem a dignissim maximus.<br>Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id. </p>
+				<h3>Responsive & Código optimizado</h3>
+				<p>El sistema CMS está basado en lenguaje Ruby on Rails, un código de programación de total actualidad, lo que permite que cualquier entendido del lenguaje pueda aportar nuevas opciones y funcionalidades para mejorar el sistema.<br>
+					En la parte visual, las plantillas están generadas para CSS3 y HTML5 y optimizadas para el posicionamiento en buscadores.<br>
+					Además el sistema de plantillas de Ylosix utiliza el framework CSS Bootstrap, lo cual facilita la maquetación y la visualización de la web en dispositivos móviles.<br>
+					Código CSS compilado a partir de SASS, el lenguaje de maquetación que permite un código más limpio e intuitivo,
+				</p>
 			</div>
 			<div class="col-xs-12 col-sm-3 col-md-3 wow fadeInUp">
 				<img src="img/demo2.png" class="img-thumbnail" alt="" />
@@ -228,16 +243,11 @@
 			</div>		 
 			<div class="col-xs-12 col-sm-9 col-md-9 wow fadeInUp text-light text-justify">
 				<h3>Backoffice</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sem, lacinia eget consequat a, fringilla vel mauris. Duis eu sodales velit. In a quam hendrerit, placerat sapien a, molestie sem. Curabitur sit amet tempus nulla, at fermentum nunc. Mauris ac erat ligula. Fusce hendrerit erat justo, eu congue metus lacinia at. Curabitur at purus libero. Morbi placerat ex blandit egestas mattis. Fusce rutrum placerat tempor. Aenean mattis justo hendrerit, iaculis nulla a, condimentum libero. Suspendisse pretium vitae nunc a vehicula.<br><br>Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id.<br>Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id.</p>
-			</div>
-      </div>
-		<div class="row">		 
-			<div class="col-xs-12 col-sm-9 col-md-9 wow fadeInUp text-light text-justify">
-				<h3>Open Source code</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis sem, lacinia eget consequat a, fringilla vel mauris. Duis eu sodales velit. In a quam hendrerit, placerat sapien a, molestie sem. Curabitur sit amet tempus nulla, at fermentum nunc. Mauris ac erat ligula. Fusce hendrerit erat justo, eu congue metus lacinia at. Curabitur at purus libero. Morbi placerat ex blandit egestas mattis. Fusce rutrum placerat tempor. Aenean mattis justo hendrerit, iaculis nulla a, condimentum libero. Suspendisse pretium vitae nunc a vehicula.<br><br>Etiam varius lorem a dignissim maximus.<br>Etiam varius lorem a dignissim maximus. Integer id auctor magna. Sed rhoncus felis ipsum, quis efficitur erat aliquam in. Maecenas ultrices velit in elementum viverra. Aliquam erat volutpat. Etiam pretium sed purus ut aliquet. Proin tempus mauris augue, sed dapibus velit ornare id. </p>
-			</div>
-			<div class="col-xs-12 col-sm-3 col-md-3 wow fadeInUp">
-				<img src="img/demo4.png" class="img-thumbnail" alt="" />
+				<p>Mediante el acceso al backoffice serás capaz de generar y administrar tu propio contenido, sin necesidad de depender de un desarrollador web.<br>
+					Podrás editar el contenido de un artículo y visualizarlo automáticamente en la web.<br>
+				Entre otras opciones podrás configurar el idioma del sitio, crear distintos canales y asociar distintas categorís y diseños en cada uno de ellos.<br>
+					Puedes ver una guía de backoffice con todas las opciones <a href="guia-backoffice.html">aquí</a>.
+				</p>
 			</div>
       </div>
 	</section>
@@ -250,9 +260,9 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="wow">
 					<div class="section-heading">
-					<h2>Getting started</h2>
+					<h2>Primeros pasos</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
@@ -266,11 +276,17 @@
 				<div class="wow fadeInLeft" data-wow-delay="0.2s">
                 <div class="service-box">
 					<div class="service-icon">
-						<i class="fa fa-code icon-big"></i>
+						<i class="fa fa-dashboard icon-big"></i>
 					</div>
-					<div class="service-desc">
-						<h5>Code Download</h5>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci sit amet nibh dignissim dignissim. Donec at placerat erat, in elementum nisl.<br>In varius mauris eget mauris pretium mattis.</p>
+					<div class="service-desc ">
+						<h5>Guía backoffice</h5>
+						<p class="text-center">
+							Configura tu CMS.<br>
+							Crea categorías y artículos.<br>
+							Selecciona una plantilla.<br>
+							Genera contenido por idiomas.<br>
+							Puedes seguir la guía backoffice <a href="guia-backoffice.html">aquí</a>.
+						</p>
 					</div>
                 </div>
 				</div>
@@ -282,8 +298,8 @@
 						<i class="fa fa-picture-o icon-big"></i>
 					</div>
 					<div class="service-desc">
-						<h5>Create a template</h5>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean sed orci sit amet nibh dignissim dignissim.<br>Donec at placerat erat, in elementum nisl.<br>In varius mauris eget mauris pretium mattis.</p>
+						<h5>Crea tu propia plantilla</h5>
+						<p class="text-center">A través del backoffice puedes importar/exportar tus plantillas.<br>Crea tus propias plantillas y luego súbelas para utilizarlas en tu web.<br>Más info <a href="">aquí</a>.</p>
 					</div>
                 </div>
 				</div>
@@ -295,8 +311,11 @@
 						<i class="fa fa-folder-open icon-big"></i>
 					</div>
 					<div class="service-desc">
-						<h5>Documentation</h5>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean sed orci sit amet nibh dignissim dignissim.Donec at placerat erat, in elementum nisl.In varius mauris eget mauris pretium mattis.<br>Suspendisse potenti.<br>Ut ex sem, bibendum at est quis, bibendum consectetur felis. </p>
+						<h5>Documentación</h5>
+						<p class="text-center">
+							Disponemos de guías para cada opción.<br>
+							Accede a nuestro apartado de documentación para ver las opciones que ofrece Ylosix.
+							<br>Más info <a href="">aquí</a>.</p>
 					</div>
                 </div>
 				</div>
@@ -308,8 +327,8 @@
 						<i class="fa fa-comments-o icon-big"></i>
 					</div>
 					<div class="service-desc">
-						<h5>Community</h5>
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sed orci sit amet nibh dignissim dignissim.Donec at placerat erat, in elementum nisl.<br>In varius mauris eget mauris pretium mattis.Suspendisse potenti.</p>
+						<h5>Comunidad</h5>
+						<p class="text-center">Accede al repositorio de Github para ver los últimos cambios y actualizaciones de código<br>Más info <a href="">aquí</a>.</p>
 					</div>
                 </div>
 				</div>
@@ -325,9 +344,9 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="wow">
 					<div class="section-heading">
-					<h2>More Info</h2>
+					<h2>Solicita información</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
 
 					</div>
@@ -345,18 +364,18 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                Nombre</label>
+                            <input type="text" class="form-control" id="name" placeholder="Tu nombre" required="required" />
                         </div>
                         <div class="form-group">
                             <label for="email">
-                                Email Address</label>
+                                Email</label>
                             <div class="input-group">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
                                 </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                <input type="email" class="form-control" id="email" placeholder="Tu email" required="required" /></div>
                         </div>
-                        <div class="form-group">
+                        <!--<div class="form-group">
                             <label for="subject">
                                 Subject</label>
                             <select id="subject" name="subject" class="form-control" required="required">
@@ -365,19 +384,19 @@
                                 <option value="suggestions">Suggestions</option>
                                 <option value="product">Product Support</option>
                             </select>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label for="name">
-                                Message</label>
+                                Mensaje</label>
                             <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="Message"></textarea>
+                                placeholder="Mensaje"></textarea>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
-                            Send Message</button>
+                            Enviar consulta</button>
                     </div>
                 </div>
                 </form>
@@ -386,7 +405,7 @@
 		
 		<div class="col-lg-4">
 			<div class="widget-contact">
-				<h5>Main Office</h5>
+				<h5>Dónde estamos</h5>
 				
 				<address>
 				  <strong>Ylosix.com</strong><br>
@@ -397,10 +416,10 @@
 
 				<address>
 				  <strong>Email</strong><br>
-				  <a href="mailto:#">email.name@example.com</a>
+				  <a href="mailto:#">info@ylosix.com</a>
 				</address>	
 				<address>
-				  <strong>We are social</strong><br>
+				  <strong>Redes sociales</strong><br>
                        	<ul class="company-social">
                             <li class="social-facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
                             <li class="social-twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>

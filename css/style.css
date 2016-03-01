@@ -1,6 +1,6 @@
 /***Define colors** */
 /*****Colors**** */
-@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic");
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700,400|Merriweather:400italic");
 a, .tp-caption a.btn:hover {
   color: #67C0BA; }
 
@@ -55,6 +55,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   letter-spacing: 1px; }
+
+.h4, h4 {
+  letter-spacing: normal;
+  font-weight: 400;
+  text-transform: none; }
+
+#whatis p {
+  font-size: 19px; }
 
 .icon-big {
   font-size: 40px;
@@ -174,7 +182,7 @@ a:hover, a:focus {
 
 .community {
   color: #000;
-  margin: 5px 15px;
+  margin: 5px 45px;
   font-weight: bold; }
 
 .navbar-right {
@@ -267,7 +275,7 @@ hr {
 
 /*****General sections**** */
 .home-section {
-  padding: 50px 10px 0px 10px;
+  padding: 65px 10px 0px 10px;
   padding-bottom: 40px;
   display: block;
   position: relative;
